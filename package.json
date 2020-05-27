@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build:production": "webpack -p",
+    "build:watch": "webpack --watch",
     "build": "webpack"
   },
   "repository": {
@@ -26,11 +28,5 @@
   },
   "devDependencies": {
     "webpack-cli": "^3.3.11"
-  },
-  "scripts": {
-    "build:watch": "webpack --watch"
-  },
-  "scripts": {
-    "build:production": "webpack -p"
   }
 }
